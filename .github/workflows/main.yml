@@ -8,9 +8,9 @@ on:
     # branches: ["main"]
 
 env:
-  PROJECT_ID: deepcell-on-batch
+  PROJECT_ID: aif-usr-p-multi-omics-8b96
   REGION: us-central1
-  GAR_LOCATION: us-central1-docker.pkg.dev/deepcell-on-batch/deepcell-benchmarking-us-central1/qupath-project-initializer
+  GAR_LOCATION: us-central1-docker.pkg.dev/aif-usr-p-multi-omics-8b96/shared-aif-artifact-registry-docker-8b96/qupath-project-initializer
 
 jobs:
   build-push-artifact:
